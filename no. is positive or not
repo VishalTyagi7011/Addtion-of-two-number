@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+int main() {
+    int x;
+    // WritecC code here
+    
+    printf("Enter  the number:");
+    scanf("%d",&x);
+    if(x>0)
+        printf("%d is positive number",x);
+    
+    else
+    
+        printf("%d is negative number",x);
+    
+    
+    return 0;
+}
